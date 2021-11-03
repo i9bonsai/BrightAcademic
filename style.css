@@ -1,9 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .inner-topbar {
-    overflow: auto;
+    overflow: hidden;
     background: linear-gradient(180deg, #2A2645 34.9%, #1D4D4A 100%);
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+    position: auto;
+    width: 100%;
+    height: 100vh;
+    
 }
 
 div.topbar {
@@ -16,4 +22,9 @@ div.topbar {
     
 
 
+}
+
+.erroralign {
+    text-align: center;
+    padding-top: 250px;
 }
